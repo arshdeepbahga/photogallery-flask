@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //AWS_ACCOUNT_ID="YOUR_ACCOUNT_ID_HERE"
-        //AWS_DEFAULT_REGION="REGION" 
+        ////AWS_DEFAULT_REGION="REGION" 
         IMAGE_REPO_NAME = "photogalleryflaskapp"
         IMAGE_TAG = "latest"
         REPOSITORY_URI = "asbind/${IMAGE_REPO_NAME}"
